@@ -1,0 +1,19 @@
+{
+  "name": "claude-code-e-ink-display",
+  "version": "1.0.0",
+  "description": "E-Ink BLE Display integration for Claude Code. Send notifications and heartbeat messages to a tri-color e-ink display.",
+  "main": "eink_final.py",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "eink",
+    "display",
+    "ble",
+    "bluetooth",
+    "notification",
+    "hardware",
+    "iot"
+  ],
+  "author": "",
+  "license": "MIT"
+}
