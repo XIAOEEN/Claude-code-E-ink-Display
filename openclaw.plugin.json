@@ -1,9 +1,0 @@
-{
-  "id": "claude-code-e-ink-display",
-  "name": "eink-display",
-  "version": "1.0.0",
-  "description": "E-Ink BLE Display integration for Claude Code",
-  "main": "eink_final.py",
-  "author": "",
-  "license": "MIT"
-}

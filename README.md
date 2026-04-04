@@ -1,10 +1,13 @@
 # Claude-code-E-ink-Display
 
+![](./e-ink.jpg)
+
 E-Ink BLE Display integration for Claude Code - Send notifications and heartbeat messages to a tri-color e-ink display.
 
 ## Overview
 
 This skill enables Claude Code to communicate with E-Ink displays via Bluetooth Low Energy (BLE). It supports:
+
 - **Task notifications**: Send completion messages after tasks finish
 - **Heartbeat (heartbit)**: When idle, display rotating love messages in English
 - **Tri-color display**: Black text, white background, red accents
@@ -70,6 +73,7 @@ Create `~/.claude/eink-config.json`:
 ## Heartbit Messages
 
 Sample love messages:
+
 - "You are my today, and all of my tomorrows. I love you more than words can ever say."
 - "Every moment with you is precious. You make my heart skip a beat every single time."
 - "You are the sunshine in my life, the reason I believe in true love."
