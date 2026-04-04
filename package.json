@@ -30,5 +30,30 @@
     "build": {
       "openclawVersion": "^1.0.0"
     }
+  },
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "device_address": {
+        "type": "string",
+        "description": "BLE device MAC address"
+      },
+      "write_char_uuid": {
+        "type": "string",
+        "description": "BLE write characteristic UUID"
+      },
+      "enabled": {
+        "type": "boolean",
+        "description": "Enable eink functionality"
+      },
+      "heartbit_enabled": {
+        "type": "boolean",
+        "description": "Enable hourly love messages"
+      },
+      "heartbit_interval_minutes": {
+        "type": "number",
+        "description": "Interval between heartbit messages"
+      }
+    }
   }
 }
