@@ -15,5 +15,13 @@
     "iot"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "openclaw": {
+    "compat": {
+      "pluginApi": "1.0.0"
+    },
+    "build": {
+      "openclawVersion": "^1.0.0"
+    }
+  }
 }
