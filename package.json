@@ -17,6 +17,13 @@
   "author": "",
   "license": "MIT",
   "openclaw": {
+    "extensions": [
+      {
+        "name": "eink-display",
+        "version": "1.0.0",
+        "description": "E-Ink BLE Display integration"
+      }
+    ],
     "compat": {
       "pluginApi": "1.0.0"
     },
